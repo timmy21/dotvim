@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. install vim editor:
+1. Install vim editor:
     - `$ sudo add-apt-repository ppa:fcwu-tw/ppa`
     - `$ sudo apt-get update`
     - `$ sudo apt-get install vim`
