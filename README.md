@@ -2,11 +2,16 @@
 
 ## Installation
 
-1. `git clone http://github.com/timmy21/dotvim.git ~/.vim`
-2. `cd ~`
-3. `ln -s ~/.vim/vimrc .vimrc` to make the .vimrc symbolic link.
-4. `cd ~/.vim`
-5. Install [Vundle](https://github.com/gmarik/vundle) with `git clone
+1. install vim editor:
+    - `$ sudo add-apt-repository ppa:fcwu-tw/ppa`
+    - `$ sudo apt-get update`
+    - `$ sudo apt-get install vim`
+2. `git clone http://github.com/timmy21/dotvim.git ~/.vim`
+3. `cd ~`
+4. `ln -s ~/.vim/vimrc .vimrc` to make the .vimrc symbolic link.
+5. `cd ~/.vim`
+6. Install [Vundle](https://github.com/gmarik/vundle) with `git clone
    http://github.com/gmarik/vundle.git bundle/vundle`
-6. `vim "+mkspell ~/.vim/spell/custom.en.utf-8.add" +BundleInstall +qall`
+7. `vim "+mkspell ~/.vim/spell/custom.en.utf-8.add" +BundleInstall +qall`
 _installs all of the plugins and compiles custom spellings._
+
